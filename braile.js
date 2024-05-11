@@ -18,7 +18,7 @@ function embedBrailleFont() {
         }
 
         body {
-            font-family: 'Braile font', sans-serif; /* Aplica a fonte braile.ttf a todo o texto do corpo */
+            font-family: 'Braile font'; /* Aplica a fonte braile.ttf a todo o texto do corpo */
         }
     `;
 
