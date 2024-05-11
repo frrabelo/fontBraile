@@ -33,9 +33,16 @@
   fontFace.load().then(function(font) {
     document.fonts.add(font);
 
-    // Define a fonte Braille como padrão para todos os elementos de texto
-    var style = document.createElement('style');
-    style.textContent = 'body * { "Braille" }';
-    document.head.appendChild(style);
+    // Injeta a fonte Braille nos elementos de texto
+    var elements = document.querySelectorAll('[data-font="Braille"]');
+    for (var i = 0; i < elements.length; i++) {
+      var element = elements[i];
+      var span = document.createElement('span');
+      span.style.fontFamily = 'Braille';
+      span.textContent = element.textContent;
+      element.textContent = '';
+      element.appendChild(span);
+    }
   });
 })();
+
