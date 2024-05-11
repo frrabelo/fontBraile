@@ -1,15 +1,19 @@
-# fontBraile
+# Font Braile for Embed code in the &lt;head> of your html <br>
 
-Este script permite que você incorpore a fonte Braille (braile.ttf) em seu site de forma simples e eficiente, alterando todas as fontes do HTML de forma indiscriminada, sem a necessidade de usar o atributo data-font. Ao adicionar a chamada <script src="https://raw.githubusercontent.com/seu-usuario/seu-repositorio/fonteBraile.js"></script> no head do seu HTML, a fonte Braille será aplicada a todos os elementos de texto da página.
+# fontBraile <br>
 
-Observação importante:
+Este script permite que você incorpore a fonte Braille (braile.ttf) em seu site de forma simples e eficiente, alterando todas as fontes do HTML de forma indiscriminada, sem a necessidade de usar o atributo data-font. Ao adicionar a chamada <br>
+<script src="https://raw.githubusercontent.com/seu-usuario/seu-repositorio/fonteBraile.js"></script>  <br>
+no head do seu HTML, a fonte Braille será aplicada a todos os elementos de texto da página. <br>
 
-Este script substitui todas as fontes existentes nos elementos de texto por Braille. Certifique-se de que essa mudança seja adequada para o seu site antes de usá-lo.
+# Observação importante: <br>
 
-Font Braile for Embed code in the &lt;head> of your html
+Este script substitui todas as fontes existentes nos elementos de texto por Braille. Certifique-se de que essa mudança seja adequada para o seu site antes de usá-lo. <br>
 
- Adiciona o script braile.js ao cabeçalho: 
-    <script src="https://raw.githubusercontent.com/frrabelo/fontBraile/braile.js"></script>
+
+
+ Adiciona o script braile.js ao cabeçalho: <br>
+    <script src="https://raw.githubusercontent.com/frrabelo/fontBraile/braile.js"></script> <br>
 
 O código em braile.js define um conjunto de funções JavaScript que convertem caracteres do alfabeto latino em caracteres Braille. <br>
 Isso é feito através de um mapeamento entre letras, números e pontuação e suas respectivas representações em Braille.<br>
