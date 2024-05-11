@@ -12,7 +12,7 @@ function embedBrailleFont() {
     style.innerHTML = `
         @font-face {
             
-            src: url('braile.ttf') format('truetype');
+            src: url('braile.ttf');
             font-weight: normal;
             font-style: normal;
         }
