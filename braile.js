@@ -29,7 +29,7 @@
 
 (function() {
   // Carrega a fonte Braille
-  var fontFace = new FontFace('Braille', 'url(Braile_font.ttf)');
+  var fontFace = new FontFace('Braille', url(Braile_font.ttf));
   fontFace.load().then(function(font) {
     document.fonts.add(font);
 
