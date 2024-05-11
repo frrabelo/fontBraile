@@ -16,10 +16,6 @@ function embedBrailleFont() {
             font-weight: normal;
             font-style: normal;
         }
-
-        body {
-            font-family: 'Braile font', sans-serif; /* Aplica a fonte braile.ttf a todo o texto do corpo */
-        }
     `;
 
     // Adiciona o estilo ao cabeçalho do documento (head)
