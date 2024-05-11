@@ -12,13 +12,13 @@ function embedBrailleFont() {
     style.innerHTML = `
         @font-face {
             font-family: 'BraileFont';
-            src: url('/braile.ttf') format('truetype');
+            src: url('braile.ttf') format('truetype');
             font-weight: normal;
             font-style: normal;
         }
 
         body {
-            font-family: 'Braile font'; /* Aplica a fonte braile.ttf a todo o texto do corpo */
+            font-family: 'Braile font', sans-serif; /* Aplica a fonte braile.ttf a todo o texto do corpo */
         }
     `;
 
