@@ -8,7 +8,7 @@ O código em braile.js define um conjunto de funções JavaScript que convertem 
 Isso é feito através de um mapeamento entre letras, números e pontuação e suas respectivas representações em Braille.<br>
 <br>
     <script src="https://raw.githubusercontent.com/frrabelo/fontBraile/braile.js"></script>
-    <br>
+<br>
 Permite que usuários insiram texto através de um elemento HTML, como um <textarea>.<br>
 Converte o texto inserido pelo usuário em sua representação em Braille.<br>
 Exibe o texto Braille resultante em um elemento HTML designado, como um <div>.<br>
@@ -19,3 +19,14 @@ A qualidade da tradução depende da abrangência do mapeamento presente no cód
 Para usar o script, você precisaria incorporá-lo em uma página HTML e fornecer os elementos de entrada e saída de texto necessários.<br>
 O repositório GitHub "frrabelo/fontBraile" parece estar desatualizado.<br>
 Espero que este script seja útil para você!<br>
+
+# Observações:<br>
+Informações da fonte:<br>
+licença:	Domínio público, GPL, OFL<br>
+criador:	Mauricio Cano<br>
+tags:	dingbats, uso comercial<br>
+
+https://fontmeme.com/fontes/fonte-braile-font/ <br>
+
+Domínio público, GPL, OFL <br>
+<br>
