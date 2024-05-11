@@ -1,4 +1,11 @@
 # fontBraile
+
+Este script permite que você incorpore a fonte Braille (braile.ttf) em seu site de forma simples e eficiente, alterando todas as fontes do HTML de forma indiscriminada, sem a necessidade de usar o atributo data-font. Ao adicionar a chamada <script src="https://raw.githubusercontent.com/seu-usuario/seu-repositorio/fonteBraile.js"></script> no head do seu HTML, a fonte Braille será aplicada a todos os elementos de texto da página.
+
+Observação importante:
+
+Este script substitui todas as fontes existentes nos elementos de texto por Braille. Certifique-se de que essa mudança seja adequada para o seu site antes de usá-lo.
+
 Font Braile for Embed code in the &lt;head> of your html
 
  Adiciona o script braile.js ao cabeçalho: 
