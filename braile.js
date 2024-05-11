@@ -11,7 +11,7 @@ function embedBrailleFont() {
     // Adiciona a regra CSS para aplicar a fonte braile.ttf a todos os elementos do HTML
     style.innerHTML = `
         @font-face {
-            font-family: 'BraileFont';
+            
             src: url('braile.ttf') format('truetype');
             font-weight: normal;
             font-style: normal;
