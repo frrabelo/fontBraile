@@ -35,7 +35,7 @@
 
     // Define a fonte Braille como padrão para todos os elementos de texto
     var style = document.createElement('style');
-    style.textContent = 'body * { font-family:"Braille"; }';
+    style.textContent = 'body * { "Braille" }';
     document.head.appendChild(style);
   });
 })();
